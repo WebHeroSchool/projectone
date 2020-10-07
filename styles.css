@@ -12,13 +12,10 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-}
-.logo, .menu {
-    /*display: inline-block;*/
+    margin-bottom: 131px;
 }
 .logo {
-    padding: 40px 0;
-    margin-bottom: 143px;
+    padding: 40px 0 40px 48px;
     font-family: "PT Serif", serif;
     font-style: normal;
     font-weight: bold;
@@ -28,7 +25,7 @@ body {
 .menu {
     display: flex;
     align-items: center;
-    margin: 0 0 143px 0;
+    padding: 4px 0 0 0;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -36,11 +33,12 @@ body {
     line-height: 21px;
 }
 .menu__item {
-    padding: 0 13px;
+    padding: 0 26px 0 0;
     text-decoration: none;
+    color: #000000;
 }
 .menu__item:last-child {
-    padding-right: 0;
+    padding-right: 11px;
 }
 .main-section {
     display: flex;
@@ -48,6 +46,7 @@ body {
 }
 .main-content {
     width: 37%;
+    padding: 20px 0 0 3px;
 }
 .main-content__title {
     font-family: "PT Serif", serif;
@@ -72,4 +71,5 @@ body {
 }
 .image-content {
     width: 50%;
+    margin: 0 8px 0 0;
 }
