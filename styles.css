@@ -15,7 +15,7 @@ body {
     margin-bottom: 131px;
 }
 .logo {
-    padding: 40px 0 40px 48px;
+    padding: 40px 0 29px 4px;
     font-family: "PT Serif", serif;
     font-style: normal;
     font-weight: bold;
@@ -43,12 +43,15 @@ body {
 .main-section {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 123px;
 }
 .main-content {
     width: 37%;
     padding: 20px 0 0 3px;
 }
 .main-content__title {
+    margin: 0;
+    padding-top: 57px;
     font-family: "PT Serif", serif;
     font-style: normal;
     font-weight: bold;
@@ -56,6 +59,9 @@ body {
     line-height: 85px;
 }
 .main-content__subtitle {
+    width: 84%;
+    margin-bottom: 42px;
+    padding-top: 17px;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -63,6 +69,13 @@ body {
     line-height: 26px;
 }
 .main-content__button {
+    width: 271px;
+    height: 57px;
+    padding-right: 17px;
+    border: none;
+    border-radius: 3px;
+    background-color: #0056EC;
+    color: #ffffff;
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -72,4 +85,8 @@ body {
 .image-content {
     width: 50%;
     margin: 0 8px 0 0;
+}
+.footer {
+    display: flex;
+    justify-content: center;
 }
