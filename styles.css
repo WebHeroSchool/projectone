@@ -12,15 +12,19 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 131px;
+    padding: 40px 0 40px 4px;
+    margin-bottom: 124px;
 }
 .logo {
-    padding: 40px 0 29px 4px;
-    font-family: "PT Serif", serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 31px;
+    /*padding: 40px 0 29px 4px;*/
+    /*font-family: "PT Serif", serif;*/
+    /*font-style: normal;*/
+    /*font-weight: bold;*/
+    /*font-size: 24px;*/
+    /*line-height: 31px;*/
+    width: 190px;
+    height: 35px;
+    background: url("image/logo.svg");
 }
 .menu {
     display: flex;
@@ -56,7 +60,7 @@ body {
     font-style: normal;
     font-weight: bold;
     font-size: 66px;
-    line-height: 85px;
+    line-height: 87px;
 }
 .main-content__subtitle {
     width: 84%;
